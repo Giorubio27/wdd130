@@ -18,37 +18,21 @@ header {
   grid-template-columns: 2fr 3fr;
 }
 
+
 nav {
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
 }
 
-main {
+footer {
   display: flex;
-  flex-direction: column;
-}
-
-section:first-child {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-
-section:last-child {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-}
-h2:first-child {
-  display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: end;
   align-items: center;
-}
-h2:last-child {
-  display: flex;
-  flex: 5;
+
 }
 
 
@@ -61,7 +45,7 @@ h2:last-child {
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
-}
+} 
 
 header, main, footer {
   width: 840px;
