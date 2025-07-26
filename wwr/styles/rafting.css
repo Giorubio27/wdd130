@@ -29,14 +29,28 @@ main {
   flex-direction: column;
 }
 
-section {
+section:first-child {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-h2:nth-child(2) {
+
+
+section:last-child {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+h2:first-child {
   display: flex;
-  flex: 10;
+  justify-content: center;
+  align-items: center;
 }
+h2:last-child {
+  display: flex;
+  flex: 5;
+}
+
 
 * {
   margin: 0;
