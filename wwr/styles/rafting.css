@@ -26,13 +26,23 @@ nav {
   align-items: center;
 }
 
+
+
+
+
+
+
 footer {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: end;
   align-items: center;
+  text-align: center;
+}
 
+footer img {
+  width: 75px;
 }
 
 

@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "knewwave", system-ui;
+    font-size: 1.3em;
+    color: black;
+    background-color: white;
+}
+
+header {
+    margin: 0 auto;
+}
+
+h1 {
+    margin: .5em;
+    font-size: 1.5em;
+    color: rgb(38, 138, 138);
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: rgb(57, 191, 214);
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    gap: 0;
+    margin: 1rem;
+    border: 1px solid rgb(180, 180, 252);
+    padding: 1rem;
+}
+
+legend {
+    padding: .5rem;
+    color: blue;
+    font-size: 1.1em;
+}
+
+label, input, button, select, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
+    font-style: italic;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: larger;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+    
+}
+
+button {
+    margin: 1rem;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+}
+
+button {
+    background-color: rgb(22, 50, 209);
+}
+
+
+
+footer {
+    text-align: center;
+    margin: .5rem auto 0;
+    width: 650px;
+    font-size: .8em;
+    color: black;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: .5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: .5rem;
+}
+
+.knewave-regular {
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.knewave-regular {
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
