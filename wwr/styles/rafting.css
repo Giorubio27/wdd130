@@ -223,3 +223,18 @@ article {
   font-weight: 400;
   font-style: normal;
 }
+
+.figure_flex {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+    
+}
+
+
+.figure_flex img {
+  width: 150px;
+}
+h2 {
+  text-align: center;
+}
