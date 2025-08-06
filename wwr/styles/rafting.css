@@ -1,7 +1,7 @@
 :root {
   --primary-color: #A3E7FC;
   /* quin magenta */
-  --secondary-color: #422e2e; 
+  --secondary-color: #422e2e;
   /* lapis lazuli */
   --accent1-color: #003D5B;
   /* powder blue */
@@ -124,6 +124,9 @@ button {
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
+  border: 1px var(--secondary-color);
+  border-radius: 10%;
+  box-shadow: 0 0 30px var(--primary-color);
 }
 
 footer {
