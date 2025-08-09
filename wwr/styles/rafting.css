@@ -289,6 +289,7 @@ figure {
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
+  border: 1px solid black;
 }
 
 .lines img {
@@ -351,5 +352,65 @@ h4 {
   border-radius: .10;
   box-shadow: 0 0 15px darkmagenta;
 
+}
+
+.text-box {
+  width: 200px;
+  font-size: large;
+}
+
+h6 {
+  border: 1px solid var(--accent2-color);
+  background-color: var(--primary-color);
+  font-size: larger;
+  text-align: center;
 
 }
+.trips-grid {
+  display: grid;
+  grid-area: 1 / 1 / 3 / 3;
+  background-color: var(--secondary-color);
+  
+  
+}
+.lines3 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+.lines3 img {
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.lines4 {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid black;
+}
+.lines4 img {
+  border: 1px solid black;
+  margin: 5px;
+  box-shadow: 0 0 30px white;
+}
+
+.colors img {
+  box-shadow: 0 0 30px red;
+}
+.america img {
+  box-shadow: 0 0 30px blue;
+}
+.trips-title {
+  text-align: center;
+  font-size: larger;
+  font-family: var(--heading-font);
+  color: var(--accent2-color);
+  border: 1px solid black;
+  box-shadow: 0 0 30px rgb(83, 81, 81);
+  background: linear-gradient(red,white,blue);
+}
+
