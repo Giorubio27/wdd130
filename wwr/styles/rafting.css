@@ -349,7 +349,6 @@ h4 {
   padding: 10px;
   margin: 10px;
   border: 1px solid black;
-  border-radius: .10;
   box-shadow: 0 0 15px darkmagenta;
 
 }
@@ -375,7 +374,7 @@ h6 {
 }
 .lines3 {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: space-around;
   align-items: center;
   border: 1px solid black;
@@ -387,7 +386,7 @@ h6 {
 
 .lines4 {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
   align-content: center;
   border: 1px solid black;
@@ -398,8 +397,10 @@ h6 {
   box-shadow: 0 0 30px white;
 }
 
+
 .colors img {
   box-shadow: 0 0 30px red;
+  color: red;
 }
 .america img {
   box-shadow: 0 0 30px blue;
@@ -413,4 +414,68 @@ h6 {
   box-shadow: 0 0 30px rgb(83, 81, 81);
   background: linear-gradient(red,white,blue);
 }
+
+.new-1 {
+  display: flex;
+  text-align: center;
+}
+.new-1 figcaption {
+  background:none;
+  justify-content: center;
+  margin-left: 5px;
+  margin-top: 25px;
+  
+}
+.new-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.new-2 figcaption{
+  background: none;
+  margin-left: 15px;
+  
+}
+.new-3 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.new-3 figcaption {
+  background: none;
+  margin-left: 15px;
+}
+
+.new-1 img {
+   box-shadow: 0 0 30px blue;
+   border-right: 2px solid black;
+   border-bottom: 2px solid black;
+   width: 250px;
+   
+   background: linear-gradient(blue, white);
+}
+
+.new-2 img {
+   box-shadow: 0 0 30px white;
+   border: 1px solid black;
+   width: 150px;
+   height: auto;
+   
+   
+}
+.new-3 img {
+   box-shadow: 0 0 30px red;
+   border: 1px solid black;
+   width: 150px;
+   height: auto;
+  
+}
+.the-gridler {
+  display: grid;
+  grid-area: 1 / 1 / 3 / 3;
+  background: repeating-linear-gradient(red,white,red,white,red,white,red,white,red,white);
+  height: auto;
+  margin-top: 20px;
+  border: 2px solid black;
+  
+}
+
 
